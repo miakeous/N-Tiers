@@ -1,0 +1,19 @@
+dn: o=tse,c=fr
+objectClass: organization
+o: TSE
+
+dn: ou=person, o=tse,c=fr
+ou: person
+objectClass: organizationalUnit
+
+dn: uid=fayolle.jacques,ou=person, o=tse,c=fr
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword:: bkldfshjkdsfhkjvjkhsdfkj
+mail: jacques.fayolle@univ-st-etienne.fr
+uid: fayolle.jacques
+uid: fj
+cn: Fayolle
+sn: Jacques
+title: Directeur

@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+
+<div class='container'>
+<form action="ldap.php" method="POST">
+  <div class="form-group">
+    <label for="inputId">Identifiant</label>
+    <input type="text" class="form-control"  required id="inputId" name="inputId" aria-describedby="emailHelp" placeholder="Entrez votre prenom.nom">
+
+  </div>
+  <div class="form-group">
+    <label for="inputPassword">Password</label>
+    <input type="password" required class="form-control" id="inputPassword" name="inputPassword" placeholder="Password">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <a href ="registration.html">Pas encore de compte ?</a>
+</form>
+</div>
+
+
+</body>
+
+</html>

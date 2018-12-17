@@ -1,0 +1,57 @@
+#map {
+       height: 100px;  /* The height is 400 pixels */
+       width: 50%;  /* The width is the width of the web page */
+      }
+.container{
+          width: 90%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 10%;
+          margin-bottom: 5%;
+          height:65%;
+
+}
+.jumbotron{
+  height: 100%;
+  position:relative;
+}
+
+.gauche{
+  float: left;
+  width: 50%;
+}
+.droite{
+float : right;
+
+width: 50%;
+}
+.bottom{
+  float: left;
+}
+.inscription{
+  float: left;
+}
+.participation{
+  float:right;
+  margin-right: 5%;
+}
+
+.delete{
+  position : absolute;
+  top: 0;
+  right:0;
+
+}
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}

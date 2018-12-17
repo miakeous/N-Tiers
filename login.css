@@ -1,0 +1,9 @@
+.container{
+  margin: auto;
+  width: 45%;
+  margin-top: 15%;
+  border-radius: 15px 50px 30px;
+  border-style: solid;
+ border-width: medium;
+ border-color:#D8D7D7;
+}
